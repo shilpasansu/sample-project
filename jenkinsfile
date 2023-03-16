@@ -1,0 +1,11 @@
+node
+{
+stage "1. create a folder"
+sh "mkdir -p pipeline-scripted"
+stage "2. create file"
+sh "touch dimple.txt"
+stage "3. view date"
+sh " date"
+stage "4. view files"
+sh "ls -ltr"
+}

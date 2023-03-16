@@ -1,10 +1,12 @@
 pipeline {
-agent any
-stages {
-stage ("1. install ansible package") {
-steps {
-sh "amazon-linux-extras install -y ansible2"
-sh "mkdir -p inbound-1"
-sh "mkdir -p outbound-2"
-}
-}
+    agent any
+    stages {
+        stage ("1. install ansible package") {
+            steps {
+                sh "amazon-linux-extras install -y ansible2"
+                sh "mkdir -p inbound-1"
+                sh "mkdir -p outbound-2"
+            }
+         }
+     }
+ }    

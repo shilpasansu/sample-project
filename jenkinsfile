@@ -9,5 +9,5 @@ sh " date"
 stage "4. view files"
 sh "ls -ltr"
 stage "5. partition details"
-sh "df -h
+sh "df -h"
 }

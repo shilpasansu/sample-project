@@ -10,4 +10,6 @@ stage "4. view files"
 sh "ls -ltr"
 stage "5. partition details"
 sh "df -h"
+stage "6. memory details"
+sh "free"
 }
